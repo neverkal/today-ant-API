@@ -49,8 +49,8 @@ spring:
             - email
             - public_profile
         naver:
-          clientId: 1pB3OI9Duv3Rf80GpsE6
-          clientSecret: lZk57kSjMk
+          clientId: '네이버 id'
+          clientSecret: '네이버 key'
           clientAuthenticationMethod: post
           authorizationGrantType: authorization_code
           redirectUri: "{baseUrl}/{action}/oauth2/code/{registrationId}"
@@ -60,8 +60,8 @@ spring:
             - profile_image
           clientName: Naver
         kakao:
-          clientId: '{카카오 client-id}'
-          clientSecret: '{카카오 client-secret}'
+          clientId: '카카오 id'
+          clientSecret: '카카오 key'
           clientAuthenticationMethod: post
           authorizationGrantType: authorization_code
           redirectUri: "{baseUrl}/{action}/oauth2/code/{registrationId}"
